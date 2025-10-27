@@ -32,8 +32,47 @@
           Smart , reliable , and efficient bus tracking for passengers , drivers
           , and institutions.
         </p>
-        <a href="#features" class="btn-primary">Track Now</a>
+        <a href="#track" class="btn-primary">Track Now</a>
       </div>
+    </section>
+
+    <!-- Track Section -->
+    <section id="track" class="track-section">
+      <h2>Start Tracking Your Bus</h2>
+      <p>Select your journey details to begin tracking in real time.</p>
+      <form class="track-form" onsubmit="return handleTrackForm(event)">
+        <div class="form-group">
+          <label for="Start">Start Journey: </label>
+          <!-- <select id="start" required>
+            <option value="Home">Home</option>
+            <option value="College">College</option>
+            <option value="Bus station">Bus Station</option>
+          </select> -->
+          <input
+            type="text"
+            id="start"
+            placeholder="Enter your starting point"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="detination">Deatination : </label>
+          <!-- <select id="destination" required>
+            <option value="Office">Office</option>
+            <option value="Market">Market</option>
+            <option value="Airport">Airport</option>
+          </select> -->
+          <input
+            type="text"
+            id="destination"
+            placeholder="Enter your destination"
+          />
+        </div>
+
+        <button type="submit" class="btn-submit">Track Bus</button>
+      </form>
+
+      <p id="track-result" class="track-result"></p>
     </section>
 
     <!--About Section-->
@@ -85,5 +124,6 @@
       <p>© 2025 TrackMyBus | Smart Transportation System</p>
       <p>Developed by Team Solution Squad</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
