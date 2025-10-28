@@ -88,9 +88,7 @@ Future Enhancements :
   🌱 “Building smarter journeys, one route at a time.”
   — Solution Squad
 
-  
----
 
-Would you like me to tailor it for your **current version (HTML, CSS, JS only)** — or include the **future AI + backend section** as “upcoming” features in a shorter version for now?
+
 
 
